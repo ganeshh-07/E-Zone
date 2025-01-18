@@ -1,0 +1,68 @@
+
+body
+{
+font-family: Helvetica;
+background-color:tan ;
+
+}
+.container
+{
+    margin-top: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+    max-width:  1680px;
+}
+.common-form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    
+    }
+    
+.form-input
+{
+height: 50px;
+border-radius: 8px;
+margin: 10px;
+border-style: none ;
+transition: transform 0.3s ease;
+}
+.form-input:hover
+{
+    transform: scale(1.05);
+}
+.form-button
+{
+height: 50px;
+border-radius: 8px;
+border-style: none;
+margin: 10px;
+transition: transform 0.3s ease;
+}
+.form-button:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.error-p{
+    color: red;
+}
+.message-p{
+    color: green;
+    text-align: center;
+}
+.carousel-caption
+{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+}
+.max-width{
+    width: 100%;
+}

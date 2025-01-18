@@ -1,0 +1,42 @@
+.checkout h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+.checkout h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(137, 73, 42);
+    text-shadow: 0 0 8px #f4f3f1, 0 0 15px #e2be8c, 0 0 20px #e2be8c;
+}
+
+   
+.shipping-address{
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(137, 73, 42);
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    padding-top: 80px;
+    border-radius: 120px;
+    border-color:  rgb(137, 73, 42);
+    box-shadow: 11.1px 1px 1px rgb(137, 73, 42);
+}
+
+.checkout-info{
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    color: rgb(26, 111, 33);
+    border: 1px solid black;
+    width: 450px;
+    height: 200px;
+    padding-top: 50px;
+    border-radius: 120px;
+    border-color:  rgb(137, 73, 42);
+    box-shadow: 2px 2px 2px  rgb(137, 73, 42);
+}

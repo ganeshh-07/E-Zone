@@ -1,0 +1,73 @@
+<div class="user-auth">
+  <div *ngIf="!showLogin" class="user-signUp">
+    <h1>User Sign Up</h1>
+    <form
+      #userSignUp="ngForm"
+      class="common-form"
+      (ngSubmit)="signUp(userSignUp.value)"
+    >
+      <input
+        type="text"
+        class="form-input"
+        placeholder="Enter User Name"
+        name="name"
+        ngModel
+      />
+      <input
+        type="email"
+        class="form-input"
+        placeholder="Enter User Email"
+        name="email"
+        ngModel
+      />
+      <input
+        type="password"
+        class="form-input"
+        placeholder="Enter User Password"
+        name="password"
+        ngModel
+      />
+      <button class="form-button">SignUp</button>
+      <a class="create-account-link" (click)="openLogin()"
+        >Already Have Account? Click to Login</a
+      >
+    </form>
+  </div>
+  <div *ngIf="showLogin" class="user-login">
+    <h1>User Login</h1>
+    <form
+      #userLogin="ngForm"
+      class="common-form"
+      (ngSubmit)="login(userLogin.value)"
+    >
+    <p>{{authError}}</p>
+      <input
+        type="email"
+        class="form-input"
+        placeholder="Enter User Email"
+        name="email"
+        ngModel
+        #email="ngModel"
+        required
+        email
+      />
+      <p><span *ngIf="email.invalid && email.touched">Please Enter Valid E-Mail </span></p>
+      <input
+        type="password"
+        class="form-input"
+        placeholder="Enter User Password"
+        name="password"
+        ngModel
+        minlength="6"
+        maxlength="12"
+        #password="ngModel"
+        required
+      />
+      <p><span *ngIf="password.invalid && password.touched">Password should be atleast 6 Characters  </span></p>
+      <button [disabled]="userLogin.invalid" class="form-button">Login</button>
+      <a class="create-account-link" (click)="openSignUp()"
+        >Don't Have Account? Click to SignUp</a
+      >
+    </form>
+  </div>
+</div>

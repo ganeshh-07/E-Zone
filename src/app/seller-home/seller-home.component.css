@@ -1,0 +1,44 @@
+table{
+    text-align: left;
+    color:rgb(122, 55, 22); 
+    border-collapse: collapse;
+}
+table td, table th{
+    border:1px solid rgb(108, 73, 55);
+    padding: 10px;
+    min-height: 160px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+button
+{
+    width: 100px;
+  
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(108, 73, 55);
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+button a 
+{
+    text-decoration: none;
+    color:rgb(108, 73, 55);
+}
+
+h1{
+    text-align: center;
+    color: rgb(137, 73, 42);
+    text-shadow: 0 0 8px #f4f3f1, 0 0 15px #e2be8c, 0 0 20px #e2be8c;
+    padding-top: 10px;
+}
+.product-list{
+    display: grid;
+    place-items: center; 
+    height: 100vh;  
+}

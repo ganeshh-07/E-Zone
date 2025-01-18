@@ -1,0 +1,25 @@
+.sign-up
+{
+    margin: auto;
+    margin-top:50px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(137, 73, 42);
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    padding-top: 94px;
+    border-radius: 120px;
+    border-color:  rgb(137, 73, 42);
+    box-shadow: 11.1px 1px 1px rgb(137, 73, 42);
+   
+}
+.create-account-link
+{
+    cursor: pointer;
+}
+.create-account-link:hover
+{
+    color: rgb(83, 50, 14);
+    transform: scale(1.1);
+}
