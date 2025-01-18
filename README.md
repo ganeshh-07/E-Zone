@@ -1,27 +1,130 @@
-# EZone
+Ezone 🛒
+---
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+🌟 Overview
+---
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ezone is a feature-rich e-commerce platform designed to provide a seamless online shopping experience. It enables users to browse, search, and purchase products with ease while offering powerful admin tools for managing inventory, orders, and users.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🚀 Features
+---
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+🛍️ User Features:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Product Browsing: View products with details like price, description, and images.
 
-## Further help
+Search & Filters: Easily search and filter products by category, price, and more.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Cart & Checkout: Add products to the cart and complete secure transactions.
+
+User Accounts: Register, log in, and track order history.
+
+---
+
+
+
+🔧 Admin Features:
+
+Product Management: Add, edit, or delete products.
+
+Order Management: View and update order statuses.
+
+User Management: Manage user accounts and roles.
+
+
+---
+
+
+🛠️ Tech Stack
+---
+
+
+Frontend: Angular
+
+Backend: Node.js
+
+Database: json-server 
+
+Other Tools/Technologies: REST API, Bootstap
+
+Payment Integration: (note:As of now Payment method is not implemented)
+
+
+---
+
+📦 Installation
+---
+
+Step 1:
+
+Clone the repository:
+
+git clone  https://github.com/ganeshh-07/E-Zone.git
+
+cd ezone
+
+Step 2:
+
+Install dependencies:
+
+npm install
+
+Step 3:
+
+Start the application:
+
+npm start
+
+---
+
+📂 Project Structure
+---
+
+
+Ezone/
+
+├── src/
+
+│   ├── components/     # Reusable UI components
+
+│   ├── routes/         # API endpoints
+
+│   ├── controllers/    # Business logic
+
+│   ├── models/         # Database schemas
+
+│   └── utils/          # Helper functions
+
+├── public/             # Static assets
+
+├── package.json        # Dependencies and scripts
+
+└── README.md           # Project documentation
+
+
+---
+
+🤝 Contributions
+---
+Contributions are welcome! Please follow these steps:
+
+Fork the repository and create a feature branch.
+Make your changes and test thoroughly.
+Submit a pull request with a clear description of your changes.
+
+---
+
+
+📧 Contact
+---
+
+For questions or suggestions, reach out via:
+
+Email: [ganeshpatil2719@gmail.com]
