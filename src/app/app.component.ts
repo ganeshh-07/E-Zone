@@ -20,10 +20,8 @@ export class AppComponent {
   }
   title = 'E-zone';
   
-   
-    ngOnInit() {
-      localStorage.removeItem('localCart'); // Clears cart items when app loads
-    }
-    
- 
+  // ngOnInit():void{
+  
+  //   this.seller.reloadSeller()
+  // }
 }
