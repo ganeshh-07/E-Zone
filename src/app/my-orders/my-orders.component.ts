@@ -28,3 +28,12 @@ export class MyOrdersComponent {
   })
 }
 }
+
+// ngOnChanges
+// ngOninit
+// ngDoCheck
+//ngAfterContentInit
+//ngAfterContentCheck
+//ngAfterviewInit
+//ngAfterViewInit
+//ngDestroy
