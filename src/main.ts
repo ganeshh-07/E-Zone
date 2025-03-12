@@ -16,7 +16,7 @@ import { CartPageComponent } from './app/cart-page/cart-page.component';
 import { CheckoutComponent } from './app/checkout/checkout.component';
 import { MyOrdersComponent } from './app/my-orders/my-orders.component';
 import { FooterComponent } from './app/footer/footer.component';
-
+import '@angular/localize/init';
 bootstrapApplication(AppComponent, {
   providers: [
     provideHttpClient(),
