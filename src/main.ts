@@ -5,7 +5,7 @@ import { HomeComponent } from './app/home/home.component';
 import { SellerAuthComponent } from './app/seller-auth/seller-auth.component';
 import { provideHttpClient } from '@angular/common/http';
 import { SellerHomeComponent } from './app/seller-home/seller-home.component';
-import { CanActivate, Router } from '@angular/router';
+import { CanActivate } from '@angular/router';
 import { authGuard } from './app/auth.guard';
 import { SellerAddProductComponent } from './app/seller-add-product/seller-add-product.component';
 import { SellerUpdateProductComponent } from './app/seller-update-product/seller-update-product.component';
@@ -16,7 +16,6 @@ import { CartPageComponent } from './app/cart-page/cart-page.component';
 import { CheckoutComponent } from './app/checkout/checkout.component';
 import { MyOrdersComponent } from './app/my-orders/my-orders.component';
 import { FooterComponent } from './app/footer/footer.component';
-import '@angular/localize/init';
 bootstrapApplication(AppComponent, {
   providers: [
     provideHttpClient(),

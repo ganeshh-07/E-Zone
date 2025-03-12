@@ -1,0 +1,5 @@
+{
+    "build": {
+      "ignoreCommand": "exit 0"
+    }
+  }
