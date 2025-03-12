@@ -5,7 +5,7 @@ import { HomeComponent } from './app/home/home.component';
 import { SellerAuthComponent } from './app/seller-auth/seller-auth.component';
 import { provideHttpClient } from '@angular/common/http';
 import { SellerHomeComponent } from './app/seller-home/seller-home.component';
-import { CanActivate ,Router} from '@angular/router';
+import { RouterModule, Routes } from '@angular/router'
 import { authGuard } from './app/auth.guard';
 import { SellerAddProductComponent } from './app/seller-add-product/seller-add-product.component';
 import { SellerUpdateProductComponent } from './app/seller-update-product/seller-update-product.component';
