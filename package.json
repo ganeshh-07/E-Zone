@@ -14,7 +14,7 @@
     "@angular/animations": "^19.1.1",
     "@angular/common": "^18.2.13",
     "@angular/compiler": "^18.2.13",
-    "@angular/core": "^18.2.13",
+    "@angular/core": "^19.2.1",
     "@angular/forms": "^18.2.13",
     "@angular/platform-browser": "^18.2.13",
     "@angular/platform-browser-dynamic": "^18.2.13",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.1.2",
-    "@angular/cli": "^18.2.14",
+    "@angular/cli": "^19.2.1",
     "@angular/compiler-cli": "^18.2.13",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.2.0",
