@@ -26,7 +26,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-      
+                ng build --configuration=production
+
               }
             ],
             "styles": [
