@@ -1,4 +1,4 @@
-Ezone 🛒
+E-zone 🛒
 ---
 
 🌟 Overview
