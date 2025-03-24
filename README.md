@@ -16,7 +16,7 @@ Ezone is a feature-rich e-commerce platform designed to provide a seamless onlin
 
 
 
-🛍️ User Features:
+🛍️ User Features :
 
 Product Browsing: View products with details like price, description, and images.
 
