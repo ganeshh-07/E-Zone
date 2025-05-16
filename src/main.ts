@@ -55,11 +55,11 @@ import { AppComponent } from './app/app.component';
 import { provideRouter } from '@angular/router';
 import { provideHttpClient } from '@angular/common/http';
 import { authGuard } from './app/auth.guard';
-import { routes } from './app/app.routes'; // ✅ Use routes from app.routes.ts
+import { routes } from './app/app.routes'; // Use routes from app.routes.ts
 
 bootstrapApplication(AppComponent, {
   providers: [
     provideHttpClient(),
-    provideRouter(routes) // ✅ Use centralized routing
+    provideRouter(routes) // Use centralized routing
   ],
 }).catch((err) => console.error(err));

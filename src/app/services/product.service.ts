@@ -36,7 +36,7 @@ export class ProductService {
   }
 
   trendyProducts() {
-    return this.http.get<product[]>(`${environment.apiUrl}/products?_limit=8`);
+    return this.http.get<product[]>(`${environment.apiUrl}/products?_limit=100`);
   }
 
   searchProducts(query: string) {

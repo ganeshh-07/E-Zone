@@ -1,5 +1,5 @@
 {
   "routes": [
-    { "src": "/(.*)", "dest": "/dist/e-zone/index.html" }
+    { "src": "/(.*)", "dest": "dist/e-zone/browser/en-US/index.html" }
   ]
 }

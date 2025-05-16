@@ -1,12 +1,3 @@
-// import { Routes } from '@angular/router';
-// import { HomeComponent } from './home/home.component';
-
-
-// export const routes: Routes = [
-//   { path: '', component: HomeComponent }, // Default route
-  
-// ];
-
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
@@ -35,5 +26,5 @@ export const routes: Routes = [
   { path: 'checkout', component: CheckoutComponent },
   { path: 'my-orders', component: MyOrdersComponent },
   { path: 'footer', component: FooterComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' } // ✅ Catch-all route for 404s
+  { path: '**', redirectTo: '', pathMatch: 'full' } 
 ];
